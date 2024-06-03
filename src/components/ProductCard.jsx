@@ -21,8 +21,13 @@ const ProductCard = ({ item }) => {
       </div>
 
       <div className="flex justify-between">
-        <button>Wishlist</button>
-        <button>Add to cart</button>
+        <button className="border border-sm rounded-sm border-slate-600 border-1 px-3 py-2 font-medium hover:bg-blue-700 duration-200 hover:text-white text-sm">
+          Wishlist
+        </button>
+
+        <button className="border border-sm rounded-sm border-slate-600 border-1 px-3 py-2 font-medium hover:bg-green-700 duration-200 hover:text-white text-sm">
+          Add to cart
+        </button>
       </div>
     </div>
   );

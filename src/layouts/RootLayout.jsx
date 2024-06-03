@@ -21,6 +21,7 @@ const RootLayout = () => {
   return (
     <div className="flex flex-col justify-between min-h-screen p-8">
       <Header />
+
       <h1 className="ml-8 mt-16 mb-5 font-semibold text-2xl">
         Checkout trending products
       </h1>
@@ -29,7 +30,7 @@ const RootLayout = () => {
           <ProductCard key={index} item={product} />
         ))}
       </div>
-      {/* <ProductCard /> */}
+
       <Outlet />
       <Footer />
     </div>
